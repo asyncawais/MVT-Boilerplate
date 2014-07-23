@@ -49,13 +49,12 @@ var debug = true,
             /*
              * Conversions object example:
              * var cpObject = [
-             * {name: '1_LOGO_Home', elements: '#1_LOGO_Home a', type: 'redirect'},
-             * {name: '2_NAV_Home', elements: '#parent_nav .home_link a', type: 'redirect'},
-             * {name: '3_NAV_Savings', elements: '#parent_nav .parent_links li:first a', type: 'redirect'},
+             *      {name: '1_LOGO_Home', elements: '#1_LOGO_Home a', type: 'redirect'},
+             *      {name: '2_NAV_Home', elements: '#parent_nav .home_link a', type: 'redirect'},
+             *      {name: '3_NAV_Savings', elements: '#parent_nav .parent_links li:first a', type: 'redirect'},
              * ];
              */
 
-            // Exit if jQuery does not exist
             if (!this.jqueryExists()) {
                 return;
             }
