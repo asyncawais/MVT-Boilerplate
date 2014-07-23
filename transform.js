@@ -3,11 +3,11 @@
     var h = helpers;
 
     var config = {
-        'pollTimeout'   : 5000,
-        'polledElement' : 'footer',
-        'alias'         : '',
-        'imagePath'     : '',
-        'hideCSS'       : ''
+        'pollTimeout'       : 5000,
+        'polledElementID'   : 'footer',
+        'alias'             : '',
+        'imagePath'         : '',
+        'hideCSS'           : ''
     };
 
     function renderContent($) {
@@ -18,7 +18,6 @@
 
         var _levels = {};
 
-        // Factor level specific code here:
         _levels.F1 = {
             'level_1': function () {
 
