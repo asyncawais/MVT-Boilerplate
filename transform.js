@@ -76,7 +76,7 @@
             h.log('Exit Polling and Abort.');
             return;
         }
-        if (!h.getElementById(config.polledElement) || !h.jqueryExists()) {
+        if (!h.getElementById(config.polledElementID) || !h.jqueryExists()) {
             h.log('polling');
             setTimeout(pollAndRender, 250);
             return;
